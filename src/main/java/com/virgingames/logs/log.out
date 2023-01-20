@@ -1,0 +1,3 @@
+2023-01-20 10:01:828 INFO  HomePage :26 - Clicking on Accept Cookies : [[ChromeDriver: chrome on WINDOWS (dab95ece9f42da1b7dbc1e54661a33eb)] -> xpath: //div[@class='option_set']//child::div[2]]
+2023-01-20 10:01:810 INFO  HomePage :26 - Clicking on Accept Cookies : [[ChromeDriver: chrome on WINDOWS (0943be3a0f94f0d4821bfbc227e64309)] -> xpath: //div[@class='option_set']//child::div[2]]
+2023-01-20 10:01:904 INFO  HomePage :35 - get Virgin Games Image :[[ChromeDriver: chrome on WINDOWS (0943be3a0f94f0d4821bfbc227e64309)] -> xpath: //header/div[1]/a[1]/div[1]/picture[1]/img[1]]

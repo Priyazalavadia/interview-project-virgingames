@@ -1,0 +1,142 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6331030800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User Should Navigate To Virgin Game page Successfully",
+        "description": "",
+        "id": "home-page-test;user-should-navigate-to-virgin-game-page-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 757781900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 138018800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127223700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Accept Cookies",
+            "match": {
+              "location": "MyStepdefs.iClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3096308300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User Should click To Login text Successfully",
+        "description": "",
+        "id": "home-page-test;user-should-click-to-login-text-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 737816000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on Home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 96822000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Accept Cookies",
+            "match": {
+              "location": "MyStepdefs.iClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66200800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify virgin game image successfully",
+            "match": {
+              "location": "MyStepdefs.verifyVirginGameImageSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home Page Test",
+    "description": "As user I want to navigate to Virgin games website",
+    "id": "home-page-test",
+    "keyword": "Feature",
+    "uri": "computer.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@virgingames"
+      }
+    ]
+  }
+]
